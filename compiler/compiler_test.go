@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/antonmedv/expr/compiler"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/parser"
-	"github.com/antonmedv/expr/vm"
+	"github.com/ebusto/expr/compiler"
+	"github.com/ebusto/expr/conf"
+	"github.com/ebusto/expr/parser"
+	"github.com/ebusto/expr/vm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

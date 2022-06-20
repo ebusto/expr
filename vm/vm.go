@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/antonmedv/expr/file"
+	"github.com/ebusto/expr/file"
 )
 
 var errorType = reflect.TypeOf((*error)(nil)).Elem()

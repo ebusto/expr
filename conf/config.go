@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/vm"
+	"github.com/ebusto/expr/ast"
+	"github.com/ebusto/expr/vm"
 )
 
 type Config struct {

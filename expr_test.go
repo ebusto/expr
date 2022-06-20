@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/file"
+	"github.com/ebusto/expr/ast"
+	"github.com/ebusto/expr/file"
 	"github.com/wacul/ptr"
 
-	"github.com/antonmedv/expr"
+	"github.com/ebusto/expr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

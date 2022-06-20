@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	. "github.com/antonmedv/expr/ast"
+	. "github.com/ebusto/expr/ast"
 )
 
 const format = `digraph {

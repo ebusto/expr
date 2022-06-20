@@ -6,11 +6,11 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/file"
-	"github.com/antonmedv/expr/parser"
-	. "github.com/antonmedv/expr/vm"
+	"github.com/ebusto/expr/ast"
+	"github.com/ebusto/expr/conf"
+	"github.com/ebusto/expr/file"
+	"github.com/ebusto/expr/parser"
+	. "github.com/ebusto/expr/vm"
 )
 
 func Compile(tree *parser.Tree, config *conf.Config) (program *Program, err error) {

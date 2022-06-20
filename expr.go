@@ -2,16 +2,16 @@ package expr
 
 import (
 	"fmt"
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/file"
+	"github.com/ebusto/expr/ast"
+	"github.com/ebusto/expr/file"
 	"reflect"
 
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/compiler"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/optimizer"
-	"github.com/antonmedv/expr/parser"
-	"github.com/antonmedv/expr/vm"
+	"github.com/ebusto/expr/checker"
+	"github.com/ebusto/expr/compiler"
+	"github.com/ebusto/expr/conf"
+	"github.com/ebusto/expr/optimizer"
+	"github.com/ebusto/expr/parser"
+	"github.com/ebusto/expr/vm"
 )
 
 // Option for configuring config.

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/parser"
+	"github.com/ebusto/expr"
+	"github.com/ebusto/expr/ast"
+	"github.com/ebusto/expr/checker"
+	"github.com/ebusto/expr/conf"
+	"github.com/ebusto/expr/parser"
 	"github.com/stretchr/testify/assert"
 )
 

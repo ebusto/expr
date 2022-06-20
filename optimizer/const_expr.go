@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	. "github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/file"
+	. "github.com/ebusto/expr/ast"
+	"github.com/ebusto/expr/file"
 )
 
 var errorType = reflect.TypeOf((*error)(nil)).Elem()
